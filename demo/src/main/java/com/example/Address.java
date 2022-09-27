@@ -1,5 +1,4 @@
-package homework2;
-
+package com.example;
 /**
  * @author vuaivantrinhsjgmail.com
  * Adress class

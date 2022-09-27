@@ -1,4 +1,4 @@
-package homework2;
+package com.example;
 
 public abstract class Person {
 	private String firstName, lastName;

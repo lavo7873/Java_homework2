@@ -1,4 +1,4 @@
-package homework2;
+package com.example;
 
 public class Executive extends Employee {
 	private double yearlyBonus;

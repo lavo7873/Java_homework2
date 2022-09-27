@@ -1,4 +1,4 @@
-package homework2;
+package com.example;
 
 public class FullTimeEmployee extends Employee {
 	private double basePay;
