@@ -1,7 +1,7 @@
 package com.example;
 
 /**
- * @author vuaivantrinhsjgmail.com 
+ * @author linhuang1101@gmail.com
  * <<abstract>> Employee class
  */
 

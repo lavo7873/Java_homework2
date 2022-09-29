@@ -1,6 +1,6 @@
 package com.example;
 /**
- * @author vuaivantrinhsjgmail.com
+ * @author linhuang1101@gmail.com
  * Adress class
  */
 
