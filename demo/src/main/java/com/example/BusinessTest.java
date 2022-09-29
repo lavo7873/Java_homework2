@@ -15,8 +15,8 @@ public class BusinessTest {
 		
 		//Executive Test
 		System.out.println(">>>Executive<<<");
-		Executive ceo = new Executive("Viana", "Trinjh", new Address(3005, "Fenwick way", "San Jose", "CA", "95148"),
-				100, 500000.00, 5000.00, "23467362");
+		Executive ceo = new Executive("Lam", "Vong", new Address(3333, "Morrill", "San Jose", "CA", "95111"),
+				100, 500000.00, 5000.00, "123456854");
 		ceo.introduce(true);
 		System.out.printf("Total Paid Amount:$%.2f\n", ceo.computePay());
 		System.out.println();
