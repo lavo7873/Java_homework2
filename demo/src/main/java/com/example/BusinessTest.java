@@ -16,50 +16,50 @@ public class BusinessTest {
 		//Executive Test
 		System.out.println(">>>Executive<<<");
 		Executive ceo = new Executive("Lam", "Vong", new Address(3333, "Morrill", "San Jose", "CA", "95111"),
-				100, 500000.00, 5000.00, "123456854");
+				100, 5000.00, 500.00, "123456854");
 		ceo.introduce(true);
 		System.out.printf("Total Paid Amount:$%.2f\n", ceo.computePay());
 		System.out.println();
 
-		Executive vp = new Executive("Victor", "Pham", new Address(2691, "Sand Point Dr", "San Jose", "CA", "95148"),
-				101, 2500000.00, 30000.0, "123456789");
+		Executive vp = new Executive("Peter", "Vu", new Address(2232, "Foot hills Dr", "San Jose", "CA", "95132"),
+				101, 25000.00, 300.0, "123456789");
 		vp.introduce(false);
 		System.out.printf("Total Paid Amount:$%.2f\n", vp.computePay());
 		System.out.println("---------------------------");
 		
 		//Full time salaried test
 		System.out.println(">>>Full Time Salaried Employee<<<");
-		FullTimeSalaried generalManager = new FullTimeSalaried("Cris", "Johnson",
-				new Address(1001, "South Main St", "Milpitas", "CA", "95035"), 200, 80000.0, "530584113");
+		FullTimeSalaried generalManager = new FullTimeSalaried("Zed", "Son",
+				new Address(10, "South 10th St", "Milpitas", "CA", "95123"), 200, 80000.0, "530584113");
 		generalManager.introduce(true);
 		System.out.printf("Total Paid Amount:$%.2f\n", generalManager.computePay(3));
 		System.out.println();
 
-		FullTimeSalaried departmentManager = new FullTimeSalaried("Alex", "Cruz",
-				new Address(200, "Hillsdale Ave", "San Jose", "CA", "95136"), 201, 60000.0, "717451102");
+		FullTimeSalaried departmentManager = new FullTimeSalaried("Alexcender", "Cruzur",
+				new Address(2123, "Oakland", "San Jose", "CA", "95222"), 201, 60000.0, "717451102");
 		departmentManager.introduce(false);
 		System.out.printf("Total Paid Amount:$%.2f\n", departmentManager.computePay(5));
 		System.out.println("---------------------------");
 		
 		//Full Time Hourly Test
 		System.out.println(">>>FullTime Hourly Employee<<<");
-		FullTimeHourly seniorSupervisor = new FullTimeHourly("Kimjoon", "Lee",
-				new Address(234, "1st North Street", "San Jose", "CA", "95112"), 300, 35.00, 100.0, "342567823");
+		FullTimeHourly seniorSupervisor = new FullTimeHourly("Min Hoo", "Lee",
+				new Address(23234, " North Mini Street", "San Jose", "CA", "95112"), 300, 35.00, 100.0, "342567823");
 		seniorSupervisor.setDirectDeposit(true);
 		seniorSupervisor.introduce(true);
 		System.out.printf("Total Paid Amount:$%.2f\n", seniorSupervisor.computePay(43));
 		System.out.println();
 
-		FullTimeHourly juniorSupervisor = new FullTimeHourly("June", "Nguyen",
-				new Address(324, "Curtis Ave", "Milpitas", "CA", "95035"), 301, 22.0, 0.0, "345678932");
+		FullTimeHourly juniorSupervisor = new FullTimeHourly("July", "Nu",
+				new Address(3245, "Curtner Ave", "Milpitas", "CA", "95123"), 301, 22.0, 0.0, "345678932");
 		juniorSupervisor.introduce(false);
 		System.out.printf("Total Paid Amount:$%.2f\n", juniorSupervisor.computePay(40));
 		System.out.println("---------------------------");
 		
 		//Part Time Hourly Test
 		System.out.println(">>>Part Time Hourly Employee<<<");
-		PartTimeHourly associate1 = new PartTimeHourly("Minnie", "Lana",
-				new Address(296, "Abel ave", "Milpitas", "CA", "95035"), 400, 15.5, "789342456");
+		PartTimeHourly associate1 = new PartTimeHourly("Biden", "Lana",
+				new Address(1296, "24th aSt", "Milpitas", "CA", "95035"), 400, 15.5, "789342456");
 		associate1.introduce(true);
 		System.out.printf("Total Paid Amount:$%.2f\n", associate1.computePay(38));
 		System.out.println();
@@ -86,14 +86,14 @@ public class BusinessTest {
 		
 		//Customer Test 
 		System.out.println("Customer ");
-		Customer loyalty = new Customer("Brandon", "Lopez", new Address(332, "Eastridge rd", "San Jose", "CA", "95122"),
+		Customer loyalty = new Customer("Harris", "Lopi", new Address(32212, "Eastridge rd", "San Jose", "CA", "95122"),
 				600, "34567329");
 		loyalty.introduce(false);
 		loyalty.makePayment(" Cash");
 		System.out.println();
 		
-		Customer silver = new Customer("Grey", "Wilson",new Address(1004, "Oakstridge rd", "San Jose", "CA", "95132"),
-				601, "34565429");
+		Customer silver = new Customer("Civel", "Kacon",new Address(11144, "Biden rd", "San Jose", "CA", "98452"),
+				601, "123441229");
 		silver.introduce(false);
         silver.makePayment(" Credit Card");
         System.out.println("________________________");
